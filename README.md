@@ -32,4 +32,4 @@ Portanto, **o objetivo desse projeto é classificar e tentar prever, atraves das
 
 
  - <em>Projeto em andamento</em>
- <center><img src="firewall_assets/fire_packet.gif" width=300 style="float: center; margin: 0px 0px 10px 10px"></center>
+ <center><img src="firewall_assets/firewall.gif" width=300 style="float: center; margin: 0px 0px 10px 10px"></center>
