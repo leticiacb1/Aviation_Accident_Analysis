@@ -4,6 +4,8 @@
 
 Projeto 2 - Ciência de Dados 
 
+A Base de dados utilizada pode ser encontrada [aqui](https://archive.ics.uci.edu/ml/datasets/Internet+Firewall+Data), tratando-se de uma plataforma da Universidade da Califórnia com grande quantidade de repositórios de Ciência dos Dados e Machine Learning open source.
+
 ### Autores
  - Letícia Coêlho Barbosa
  - Matheus Silva Melo de Oliveira
