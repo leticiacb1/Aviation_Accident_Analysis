@@ -20,28 +20,50 @@ Entendendo a sua importância como "barreira" para o fluxo de dados, o Firewall 
 
 Portanto, **o objetivo desse projeto é classificar e tentar prever, atraves das características da transação (Portas destino e cliente , Número de bytes total, entre outros), se determinada transação de dados será aceita ou negada/impedida pelo computador (Allow, deny or drop).**
 
-### Para melhor Leitura
+### Divisão de tarefas
+
+A divisão de tarefas feita de forma conjunta na maior parte do projeto , todavia os integrantes dividiram seu foco em algumas partes , conforme elucidado abaixo:
+
+Leticia : Refinamento dos dados , outliers , valores nulos. Na parte de analise exploratória ficou responsável pela visualização de dados categóricos assim como pela maior parte das bibliotecas utilizadas no trabalho. Na seção de predição ficou responsável por parte da  introdução ao machine learning e da biblioteca utilizada, além dos modelos Logistic Regression e Random Florest.
+
+Matheus :  Refinamento dos dados , outliers , valores nulos. Na parte de analise exploratória ficou responsável pela visualização de dados numéricos assim como pela maior parte das bibliotecas iterativas (Ipywidgets) para predição utilizadas no trabalho. Na seção de predição ficou responsável por parte da introdução ao machine learning e conclusão geral,  além dos modelos KNN e Decision Tree.
+
+De toda forma , resalta-se que o trabalho em conjunto foi fundamental para a realização do projeto.
+
+### Para melhor Leitura e Interatividade
 
 Para melhor leitura e compreensão do arquivo, assim como ter contato com inteirações e detalhes, clone o repositório utilizando: 
 
-- git clone https://github.com/leticiacb1/Firewall_Analysis
+` git clone https://github.com/leticiacb1/Firewall_Analysis`
 
+Clique em Aplicação Prática e veja você mesmo o funcionamento do modelo para diferentes parâmetros de acordo com os atributos do Dataset.
+
+**Ressalta-se que para a melhor analise e utilização do projeto é recomendado que seja feita a clonagem do repositorio**
  
 ### Bibliotecas Necessárias
 
  Para o funcionamento adequado será necessária a instalação das seguintes bibliotecas, caso não as possua:
 
- - seaborn 
+ 
  - sklearn
+ - scipy
  - matplotlib
+ - seaborn 
+ - time
+ - pandas
  - numpy
  - yellowbrick
  - graphviz
  - ipywidgets
- - scipy
+ 
 
 ### Bibliografias Principais
 
+Muller,Andreas e Guido,Sarah  ; **Introduction to Machine Learning with Python** , 1° Edição , editora O'Reilly Media , 2016.
 
- - <em>Projeto em andamento</em>
- <center><img src="firewall_assets/firewall.gif" width=650 style="float: center; margin: 0px 0px 10px 10px"></center>
+[Towards Data Science](https://towardsdatascience.com/)
+
+[Saed](http://www.saedsayad.com/)
+
+ - <em>Projeto Finalizado</em>
+ <center><img src="firewall_assets/giphy.gif" width=600 style="float: center; margin: 0px 0px 10px 10px"></center>
